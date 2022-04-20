@@ -32,3 +32,18 @@ nav{
     background-size: 110px;
     background-position: 0px 320px;
 }
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 15px;
+}
+
+.card-body{
+    align-items: center;
+}
+
+h3{
+    margin-bottom: 50px;
+}
+
