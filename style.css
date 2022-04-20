@@ -1,0 +1,34 @@
+ .nav-link{
+        color: #707070;
+        font-weight: 600;
+ }
+.container{
+    margin-bottom: 50px;
+}
+nav{
+    background-color: transparent;
+}
+
+ .buy-now-button{
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 9px 25px;
+        cursor: pointer;
+ }
+
+.carousel-item {
+    padding: 20px 40px;
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.carousel-inner{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-size: 110px;
+    background-position: 0px 320px;
+}
