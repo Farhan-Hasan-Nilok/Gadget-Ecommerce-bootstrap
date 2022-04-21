@@ -41,9 +41,35 @@ nav{
 
 .card-body{
     align-items: center;
+
 }
 
 h3{
     margin-bottom: 50px;
 }
 
+#catagories{
+    text-align: center;
+    margin-top: 10%;
+}
+
+ hr{
+    width: 100px;
+    margin-left: 45.5%;
+    border: 0;
+    height: 5px;
+    /* border-radius: 3px; */
+   
+}
+
+.card-body h5{
+    text-align: center;
+}
+
+.card-body .buy-now-button{
+    margin-left: 30%;
+}
+
+.card-text{
+    text-align: center;
+}
