@@ -92,3 +92,9 @@ hr {
     border-radius: 3px;
     margin-bottom: 30px;
 }
+
+.footer {
+    text-align: center;
+    color: grey;
+    font-size: 15px;
+}
