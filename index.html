@@ -28,7 +28,7 @@
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                         <a class="nav-link" href="#product">Product</a>
-                        <a class="nav-link" href="#about-us">About Us</a>
+                        <a class="nav-link" href="#categories">Catagories</a>
                         <a class="nav-link">Contact Us</a>
                     </div>
                 </div>
@@ -100,10 +100,13 @@
         </div>
     </div>
 
-    <!-- card -->
+    <!-- card for phone section-->
 
-    <div class="container products" id="product">
-        <h3>Smartphone</h3>
+    <div class="container" id="product">
+        <div class="d-flex justify-content-between">
+            <h3>Smartphone</h3>
+            <h5 class="see-all">See All</h5>
+        </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100">
@@ -147,10 +150,13 @@
         </div>
     </div>
 
-    <!-- card -->
+    <!-- card for laptop section-->
 
-     <div class="container">
-        <h3>Laptop</h3>
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <h3>Laptop</h3>
+            <h5 class="see-all">See All</h5>
+        </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100">
@@ -193,15 +199,51 @@
             </div>
         </div>
     </div>
-    <div class="container">
-       <div class="cat-section">
-            <h3 id="catagories">Catagories<hr style="height: 5px; margin: auto; width: 100px; background: linear-gradient(to right, red, yellow);"></h3>
-            <div class="col-md-3">
 
+    <!-- catagories section -->
+
+    <div class="container" id="categories">
+        <div class="container container-catagories">
+            <div class="catagories d-flex justify-content-center">
+                <div id="catagories-bg">
+                    <h3 class="categories-border">Categories</h3>
+                </div>
             </div>
-       </div>
-    </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row ">
+                        <div class="col-md-6 d-flex align-items-center justify-content-center">
+                            <div class="card card-item category-item">
+                                <img src="images/Categories/bag.png" class="card-img-top" alt="...">
 
+                                <h6 class="text-center">Bag</h6>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex justify-content-center mb-4">
+                                <div class="card card-item category-item">
+                                    <img src="images/Categories/perfume.png" class="img-fluid" alt="...">
+                                    <h6 class="text-center">Beauty</h6>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="card card-item category-item">
+                                    <img src="images/Categories/shoe.png" class="img-fluid" alt="...">
+
+                                    <h6 class="text-center">Shoe</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <img src="images/Categories/pale-order.png" class="d-block w-100" alt="..">
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- bootstrap js -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

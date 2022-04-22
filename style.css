@@ -1,22 +1,24 @@
- .nav-link{
-        color: #707070;
-        font-weight: 600;
- }
-.container{
-    margin-bottom: 50px;
+.nav-link {
+    color: #707070;
+    font-weight: 600;
 }
-nav{
+
+.container {
+    margin-bottom: 80px;
+}
+
+nav {
     background-color: transparent;
 }
 
- .buy-now-button{
-        background-color: black;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        padding: 9px 25px;
-        cursor: pointer;
- }
+.buy-now-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
 
 .carousel-item {
     padding: 20px 40px;
@@ -26,7 +28,7 @@ nav{
     background-size: contain;
 }
 
-.carousel-inner{
+.carousel-inner {
     background-image: url(images/bg-2.png);
     background-repeat: no-repeat;
     background-size: 110px;
@@ -39,37 +41,54 @@ nav{
     border-radius: 15px;
 }
 
-.card-body{
+.card-body {
     align-items: center;
 
 }
 
-h3{
+h3 {
     margin-bottom: 50px;
+    margin-top: 8px;
 }
 
-#catagories{
+#catagories {
     text-align: center;
     margin-top: 10%;
 }
 
- hr{
+hr {
     width: 100px;
     margin-left: 45.5%;
     border: 0;
     height: 5px;
     /* border-radius: 3px; */
-   
+
 }
 
-.card-body h5{
+.card-body h5 {
     text-align: center;
 }
 
-.card-body .buy-now-button{
+.card-body .buy-now-button {
     margin-left: 30%;
 }
 
-.card-text{
+.card-text {
     text-align: center;
+}
+
+.see-all {
+    color: orange;
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+.category-item {
+    padding: 20px 20px;
+}
+
+.categories-border {
+    border-bottom: 5px solid #FFBB24;
+    border-radius: 3px;
+    margin-bottom: 30px;
 }
